@@ -63,4 +63,59 @@ public class Reservation {
         return id_reservation.hashCode();
     }
 
+    public Long getId_reservation() {
+        return id_reservation;
+    }
+
+    public void setId_reservation(Long id_reservation) {
+        this.id_reservation = id_reservation;
+    }
+
+    public Vol getVolReserve() {
+        return volReserve;
+    }
+
+    public void setVolReserve(Vol volReserve) {
+        this.volReserve = volReserve;
+    }
+
+    public Passager getPassagerReservant() {
+        return passagerReservant;
+    }
+
+    public void setPassagerReservant(Passager passagerReservant) {
+        this.passagerReservant = passagerReservant;
+    }
+
+    public String getDateReservation() {
+        return dateReservation;
+    }
+
+    public void setDateReservation(String dateReservation) {
+        this.dateReservation = dateReservation;
+    }
+
+    public String getStatus() {
+        return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
+    }
+
+    public double getPrixTotal() {
+        return prixTotal;
+    }
+
+    public void setPrixTotal(double prixTotal) {
+        this.prixTotal = prixTotal;
+    }
+
+    public Paiement getPaiement() {
+        return paiement;
+    }
+
+    public void setPaiement(Paiement paiement) {
+        this.paiement = paiement;
+    }
 }

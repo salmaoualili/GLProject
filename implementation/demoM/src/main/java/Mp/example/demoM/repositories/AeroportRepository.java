@@ -8,7 +8,7 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface AeroportRepoitory extends JpaRepository<Aeroport, Long> {
+public interface AeroportRepository extends JpaRepository<Aeroport, Long> {
 
     Optional<Aeroport> findByAeroportIATA(String aeroportIATA);
 

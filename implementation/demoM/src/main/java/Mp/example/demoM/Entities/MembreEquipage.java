@@ -66,4 +66,60 @@ public class MembreEquipage extends Thread {
 
     public void setAdmin(Admin admin) {
     }
+
+    public Long getId_membre_equipage() {
+        return id_membre_equipage;
+    }
+
+    public void setId_membre_equipage(Long id_membre_equipage) {
+        this.id_membre_equipage = id_membre_equipage;
+    }
+
+    public String getNomComplet() {
+        return nomComplet;
+    }
+
+    public void setNomComplet(String nomComplet) {
+        this.nomComplet = nomComplet;
+    }
+
+    public String getFonction() {
+        return fonction;
+    }
+
+    public void setFonction(String fonction) {
+        this.fonction = fonction;
+    }
+
+    public String getNumLicence() {
+        return numLicence;
+    }
+
+    public void setNumLicence(String numLicence) {
+        this.numLicence = numLicence;
+    }
+
+    public String getOption() {
+        return option;
+    }
+
+    public void setOption(String option) {
+        this.option = option;
+    }
+
+    public String getNationalite() {
+        return nationalite;
+    }
+
+    public void setNationalite(String nationalite) {
+        this.nationalite = nationalite;
+    }
+
+    public List<Vol> getVols() {
+        return vols;
+    }
+
+    public void setVols(List<Vol> vols) {
+        this.vols = vols;
+    }
 }

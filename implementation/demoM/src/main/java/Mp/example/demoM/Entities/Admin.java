@@ -6,7 +6,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 import java.util.ArrayList;
-import java.util.Calendar;
 import java.util.List;
 
 @Entity
@@ -129,9 +128,7 @@ public class Admin extends User {
     }
 
 
+    public void setPassword(String encode) {
 
-
-
-
-
+    }
 }
