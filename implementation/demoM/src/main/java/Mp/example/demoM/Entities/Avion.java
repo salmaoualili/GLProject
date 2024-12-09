@@ -1,6 +1,5 @@
 package Mp.example.demoM.Entities;
 
-import jakarta.persistence.Entity;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
@@ -70,5 +69,51 @@ public class Avion {
         return Objects.hash(id_avion);
     }
 
+    public Long getId_avion() {
+        return id_avion;
+    }
 
+    public void setId_avion(Long id_avion) {
+        this.id_avion = id_avion;
+    }
+
+    public String getTypeAvion() {
+        return typeAvion;
+    }
+
+    public void setTypeAvion(String typeAvion) {
+        this.typeAvion = typeAvion;
+    }
+
+    public int getCapacite() {
+        return capacite;
+    }
+
+    public void setCapacite(int capacite) {
+        this.capacite = capacite;
+    }
+
+    public String getAnneeFab() {
+        return anneeFab;
+    }
+
+    public void setAnneeFab(String anneeFab) {
+        this.anneeFab = anneeFab;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public List<Aeroport> getAeroports() {
+        return aeroports;
+    }
+
+    public void setAeroports(List<Aeroport> aeroports) {
+        this.aeroports = aeroports;
+    }
 }

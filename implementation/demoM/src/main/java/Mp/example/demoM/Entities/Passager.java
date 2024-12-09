@@ -1,7 +1,6 @@
 package Mp.example.demoM.Entities;
 
 import jakarta.persistence.*;
-import jakarta.persistence.Id;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -52,5 +51,53 @@ public class Passager extends User {
     }
     public void mettreAJourReservation() {
 
+    }
+
+    public long getId_passager() {
+        return id_passager;
+    }
+
+    public void setId_passager(long id_passager) {
+        this.id_passager = id_passager;
+    }
+
+    public String getNumPasseport() {
+        return numPasseport;
+    }
+
+    public void setNumPasseport(String numPasseport) {
+        this.numPasseport = numPasseport;
+    }
+
+    public String getNumCarteIdentite() {
+        return numCarteIdentite;
+    }
+
+    public void setNumCarteIdentite(String numCarteIdentite) {
+        this.numCarteIdentite = numCarteIdentite;
+    }
+
+    public String getNationalite() {
+        return nationalite;
+    }
+
+    public void setNationalite(String nationalite) {
+        this.nationalite = nationalite;
+    }
+
+    public String getAdresse() {
+        return adresse;
+    }
+
+    public void setAdresse(String adresse) {
+        this.adresse = adresse;
+    }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
     }
 }

@@ -18,4 +18,5 @@ public interface VolRepository extends JpaRepository<Vol, Long> {
     List<Reservation> findByVolReserve_Id(Long volId);
 
     boolean existsByPassagerReservant_IdAndVolReserve_Id(Long passagerId, Long volId);
+
 }

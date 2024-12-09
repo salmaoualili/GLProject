@@ -72,5 +72,67 @@ public class Aeroport {
         return Objects.hash(id_aeroport);
     }
 
+    public Long getId_aeroport() {
+        return id_aeroport;
+    }
 
+    public void setId_aeroport(Long id_aeroport) {
+        this.id_aeroport = id_aeroport;
+    }
+
+    public String getAeroportIATA() {
+        return aeroportIATA;
+    }
+
+    public void setAeroportIATA(String aeroportIATA) {
+        this.aeroportIATA = aeroportIATA;
+    }
+
+    public String getNomAeroport() {
+        return nomAeroport;
+    }
+
+    public void setNomAeroport(String nomAeroport) {
+        this.nomAeroport = nomAeroport;
+    }
+
+    public String getVille() {
+        return ville;
+    }
+
+    public void setVille(String ville) {
+        this.ville = ville;
+    }
+
+    public String getPays() {
+        return pays;
+    }
+
+    public void setPays(String pays) {
+        this.pays = pays;
+    }
+
+    public int getCapacite() {
+        return capacite;
+    }
+
+    public void setCapacite(int capacite) {
+        this.capacite = capacite;
+    }
+
+    public List<Vol> getVolsDepart() {
+        return volsDepart;
+    }
+
+    public void setVolsDepart(List<Vol> volsDepart) {
+        this.volsDepart = volsDepart;
+    }
+
+    public List<Vol> getVolsArrive() {
+        return volsArrive;
+    }
+
+    public void setVolsArrive(List<Vol> volsArrive) {
+        this.volsArrive = volsArrive;
+    }
 }
